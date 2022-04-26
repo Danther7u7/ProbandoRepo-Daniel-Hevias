@@ -120,6 +120,7 @@ body {
 .container__flex--imagenes--index li {
     margin: 1rem;
     text-align: center;
+    animation-duration: 2s;
 }
 
 .container__flex--imagenes--index li img {
@@ -327,7 +328,7 @@ label {
 }
 
 /* Animaciones */
-.container__mensaje {
+/* .container__mensaje {
     animation-name: movimiento;
     animation-duration: 1s;
     animation-direction: reverse;
@@ -349,7 +350,7 @@ label {
 
 @keyframes escala {
     from {transform: scale(.8);}
-    to {transform: scale(1);}
+    to {transform: scale(1);} */
 }
 /* Vista mobile */
 @media only screen and (max-width: 1060px) {
