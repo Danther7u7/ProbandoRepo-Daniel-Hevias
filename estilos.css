@@ -326,7 +326,32 @@ label {
     background: #ac6e6785;
 }
 
-/* vista mobile */
+/* Animaciones */
+.container__mensaje {
+    animation-name: movimiento;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+.container__flex--imagenes--index li {
+    animation-name: escala;
+    animation-duration: 2s;
+}
+
+.container__footer h2 {
+    animation-duration: 2s;
+}
+
+@keyframes movimiento {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+}
+
+@keyframes escala {
+    from {transform: scale(.8);}
+    to {transform: scale(1);}
+}
+/* Vista mobile */
 @media only screen and (max-width: 1060px) {
 
     .container {
