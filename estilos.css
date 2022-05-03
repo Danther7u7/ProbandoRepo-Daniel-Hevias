@@ -8,7 +8,7 @@ html {
 }
 
 h2 { 
-    font-size: 2em;
+    font-size: 1.6em;
     line-height: 1em;
 }
 
@@ -20,11 +20,11 @@ body {
     background-size: cover;
     background-position: center center;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.4em;
 }
 
-.container {
+.contenedor {
     width: 90%;
     max-width: 1400px;
     margin: 0 auto;
@@ -87,8 +87,8 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 24px;
+    padding-bottom: 12px;
 }
 
 #hero h2 {
@@ -107,8 +107,9 @@ body {
 
 .imagenes ul {
     list-style: none;
+    margin-top: 12px;
+    padding-bottom: 28px;
     padding-left: 0;
-    padding-bottom: 56px;
 }
 
 .container__flex--imagenes--index {
@@ -128,6 +129,7 @@ body {
     max-height: 500px;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 
 iframe{
@@ -171,8 +173,6 @@ iframe{
     list-style: none;
     padding-top: 0rem;
     padding-bottom: 1rem;
-    
-
 }
 
 .footer__pages a {
@@ -220,6 +220,7 @@ iframe{
     max-height: 400px;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 
 /* perzonalizado.html */
@@ -352,10 +353,11 @@ label {
     from {transform: scale(.8);}
     to {transform: scale(1);} */
 }
+
 /* Vista mobile */
 @media only screen and (max-width: 1060px) {
 
-    .container {
+    .contenedor {
         width: 90%;
         max-width: 1400px;
         margin: 0 auto;
