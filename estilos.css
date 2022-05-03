@@ -78,7 +78,7 @@ body {
 }
 
 .secciones ul li a:hover {
-    background: #6e636e4f;
+    background: #f1724049;
 }
 
 #hero {
@@ -221,6 +221,11 @@ iframe{
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+.container__flex img:hover {
+    transform: scale(1.1);
 }
 
 /* perzonalizado.html */
@@ -328,32 +333,6 @@ label {
     background: #ac6e6785;
 }
 
-/* Animaciones */
-/* .container__mensaje {
-    animation-name: movimiento;
-    animation-duration: 1s;
-    animation-direction: reverse;
-}
-
-.container__flex--imagenes--index li {
-    animation-name: escala;
-    animation-duration: 2s;
-}
-
-.container__footer h2 {
-    animation-duration: 2s;
-}
-
-@keyframes movimiento {
-    from {transform: translateX(0);}
-    to {transform: translateX(-100%);}
-}
-
-@keyframes escala {
-    from {transform: scale(.8);}
-    to {transform: scale(1);} */
-}
-
 /* Vista mobile */
 @media only screen and (max-width: 1060px) {
 
@@ -393,7 +372,7 @@ label {
     }
 
     .secciones ul li a:hover {
-        background: #6e636e4f;
+        background: #f1724049;
     }
 
     .footer {
