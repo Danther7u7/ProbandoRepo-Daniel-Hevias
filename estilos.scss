@@ -1,5 +1,6 @@
 $colorTexto: black;
 $colorSeccion: #f1724049;
+$colorIconos: rgba(26, 83, 81, 0.664);
 
 * {
     box-sizing: border-box;
@@ -38,7 +39,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-
     a {
         color: $colorTexto;
         text-decoration: none;
@@ -80,7 +80,6 @@ body {
             }
         }
     }
-
 }
 
 #hero {
@@ -171,16 +170,24 @@ iframe{
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-top: 0rem;
-    padding-bottom: 1rem;
-    a {
-        display: inline-block;
-        display: block;
-        padding: 0.2rem 1rem;
-        font-weight: bold;
-        text-decoration: none;
-        color: $colorTexto;
+    padding-top: 0;
+    padding-bottom: 0;
+    li {
+        display: list-item;
+        a {
+            padding-left: 5px;
+            padding-right: 5px;
+            text-decoration: none;
+            color: $colorIconos;
+        }
+        p {
+            font-weight: bold;
+        }
     }
+}
+
+.icono {
+    font-size: 3rem;
 }
 
 /* sobremi.html */
