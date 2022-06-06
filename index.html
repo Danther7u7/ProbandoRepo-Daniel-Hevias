@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="En este sitio web encontrarás todo tipo de ropa tejida a crochet, 100% a mano y de buena calidad">
     <meta name="keywords" content="Tejidos, Crochet, Lana, Ropa, Moda, Artesanal">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -18,56 +19,58 @@
 
   <body>
     <!-- ENCABEZADO -->
-    <header class="header">
-      <div class="contenedor container__logo--nav">
-        <h1 class="logo animate__animated animate__pulse">
-          <a href="./index.html">Inmune Diseño</a>
-        </h1>
-        <nav class="secciones">
-          <ul>
-            <li>
-              <a href="./secciones/sobremi.html">Sobre Mi</a>
-            </li>
-            <li>
-              <a href="./secciones/productos.html">Productos</a>
-            </li>
-            <li>
-              <a href="./secciones/personalizado.html">Personalizado</a>
-            </li>
-            <li>
-              <a href="./secciones/preguntas.html">Preguntas Frecuentes</a>
-            </li>
-            <li>
-              <a href="./secciones/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-light border-bottom py-3">
+        <div class="container">
+          <a class="navbar-brand logo animate__animated animate__pulse" href="./index.html">Inmune Diseño</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./secciones/sobremi.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/personalizado.html">Personalizado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/preguntas.html">Preguntas Frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-
     <!-- CUERPO -->
-    <main class="main">
+    <main class="main py-3">
       <section id="hero">
-        <div class="contenedor container__mensaje">
-          <h2>¿Qué es Inmune Diseño?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime fugit suscipit ex architecto natus assumenda officia eveniet repellat necessitatibus! Minima repellendus magni inventore veritatis est nostrum assumenda laborum amet recusandae!</p>
-          <h2>¿Qué nos hace especial?</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem molestiae facilis laborum similique minus recusandae non porro maxime, ut, aliquid dolore quaerat modi deserunt molestias quam veritatis eum possimus laboriosam.</p>
+        <div class="contenedor container__mensaje py-4">
+          <h2 class="pb-3">¿Qué es Inmune Diseño?</h2>
+          <p>Inmune Diseño es una marca de ropa que nace de la necesidad de tener una prenda de calidad que dure muchos años, es por eso que nos enfocamos 100% en usar los mejores materiales para entergar esa calidad que tanto les gusta a nuestros clientes.</p>
+          <h2 class="py-3">¿Qué nos hace especial?</h2>
+          <p>Lo que nos hace especial son nuestras prendas de calidad, hechas a mano, las cuales te durarán una eternidad en el closet y podrás armar un oufit ideal para cada ocasión, ya que podemos fabricar tu producto ideal, solo necesitamos tu idea y tu talla.</p>
         </div>
       </section>
 
       <div class="container imagenes container__iframe">
         <ul class="container__flex--imagenes--index">
-          <li class="animate__animated animate__pulse"><img src="./imagenes/f1.jpg" alt="Chaleco rosado"></li>
-          <li class="animate__animated animate__pulse"><img src="./imagenes/f4.jpg" alt="Chaleco celeste"></li>
-          <li class="animate__animated animate__pulse"><img src="./imagenes/f3.jpg" alt="Gorro azul"></li>
+          <li class="animate__animated animate__pulse"><img src="./imagenes/f1.jpg" alt="Chaleco de lana rosado con blanco"></li>
+          <li class="animate__animated animate__pulse"><img src="./imagenes/f4.jpg" alt="Gorro de lana azul con tonos en burdeo"></li>
+          <li class="animate__animated animate__pulse"><img src="./imagenes/f3.jpg" alt="Chaleco de lana celeste con mangas blancas y toques morados"></li>
         </ul>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gND8t9aYNC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rS7g_4z7Exk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <div class="container__iframe">
-        <h2 class="animate__animated animate__tada">Punto de Ventas</h2>
+      <div class="container container__iframe py-4">
+        <h2 class="animate__animated animate__tada py-3">Punto de Ventas</h2>
         <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6658.784738835853!2d-70.64502401843298!3d-33.43908267018686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96623debe2486905%3A0xa38ed010f5764604!2sLastarria%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1648503420295!5m2!1ses!2scl" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </main>
@@ -77,9 +80,9 @@
         <h2 class="animate__animated animate__pulse">Nuestras Redes</h2>
         <ul class="footer__pages">
           <li>
-            <a href="#"><i class="fa-brands fa-facebook-square icono"></i></a>
+            <a href="https://www.facebook.com/groups/crochetchile.ventas" target="_blank"><i class="fa-brands fa-facebook-square icono"></i></a>
             <a href="https://www.instagram.com/inmunediseno/" target="_blank"><i class="fa-brands fa-instagram-square icono"></i></a>
-            <a href="#"><i class="fa-brands fa-whatsapp-square icono"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=949388864&text=Hola, Nececito mas informacion!" target="_blank"><i class="fa-brands fa-whatsapp-square icono"></i></a>
           </li>
           <li>
             <p>Copyright © 2022 Inmune</p>
@@ -87,6 +90,8 @@
         </ul>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
   </body>
 

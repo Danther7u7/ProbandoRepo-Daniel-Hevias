@@ -13,8 +13,13 @@ h2 {
   line-height: 1em;
 }
 
+h3 {
+  font-size: 1.4em;
+  line-height: 1em;
+}
+
 p {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 body {
@@ -33,34 +38,21 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.navbar {
   background-image: url("./imagenes/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
 }
 
-.header a {
+.navbar a {
   color: black;
   text-decoration: none;
 }
 
-.container__logo--nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .logo {
   font-size: 1.8rem;
+  font-weight: bold;
   padding-right: 2rem;
 }
 
@@ -69,26 +61,16 @@ body {
   line-height: 1em;
 }
 
-.secciones ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.secciones ul li {
-  display: inline-block;
-}
-
-.secciones ul li a {
-  display: block;
-  padding: 0.5rem 1rem;
+#navbarNav ul li a {
+  padding-left: 16px;
+  padding-right: 16px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   border-radius: 5px;
   font-weight: bold;
 }
 
-.secciones ul li a:hover {
+#navbarNav ul li a:hover {
   background: #f1724049;
 }
 
@@ -107,8 +89,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 24px;
-  padding-bottom: 12px;
 }
 
 #hero h2 {
@@ -127,9 +107,8 @@ body {
 
 .imagenes ul {
   list-style: none;
-  margin-top: 12px;
-  padding-bottom: 28px;
   padding-left: 0;
+  margin-bottom: 3rem;
 }
 
 .container__flex--imagenes--index {
@@ -144,15 +123,15 @@ body {
 }
 
 .container__flex--imagenes--index li {
-  margin: 1rem;
+  margin: 0.8rem;
   text-align: center;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
 }
 
 .container__flex--imagenes--index li img {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 400px;
   width: 100%;
   height: 100%;
   border-radius: 5px;
@@ -193,6 +172,11 @@ iframe {
   width: 100%;
 }
 
+.container__footer h2 {
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .footer__pages {
   margin: 0;
   padding: 0;
@@ -203,6 +187,8 @@ iframe {
 
 .footer__pages li {
   display: list-item;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer__pages li a {
@@ -214,6 +200,7 @@ iframe {
 
 .footer__pages li p {
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .icono {
